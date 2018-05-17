@@ -11,9 +11,18 @@ html{
 }
 #header{
     position: absolute;
-    top: 5px;;
-    left: 0;
+    top: 5px;
+    left: 0 ;
     right: 0;
     width: 100%;
     padding: 20px 0;
+    background: url(img/headback.png);
+}
+
+.logo{
+    float: left;
+}
+
+.nav{
+    float: right;
 }
