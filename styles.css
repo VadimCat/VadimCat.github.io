@@ -2,10 +2,18 @@ html{
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.headimg{
-    margin-left: 28px;
+.container{
+    width:1024;
+    margin: 0 auto; 
 }
-header{
-    width: 1024px;
-    background: whitesmoke url(img/headback.png);
+.nav{
+    font-size: 16;
+}
+#header{
+    position: absolute;
+    top: 5px;;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;
 }
