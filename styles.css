@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headimg{
+    margin-left: 28px;
+}
+header{
+    width: 1024px;
+    background: whitesmoke url(img/headback.png);
+}
