@@ -15,6 +15,7 @@ html{
 .nav il{
     float: left;
 }
+
 #header{
     position: absolute;
     top: 5px;
@@ -27,6 +28,7 @@ html{
     border-bottom-width: 1;
     border-bottom-color: rgb(207, 207, 207);
 }
+
 a {
     text-decoration: none;
     font-style: black;
@@ -68,34 +70,26 @@ img{
 }
 
 #upload{
-    margin: 160px ;
+    margin: 160px auto;
+    width: 1024px;
     text-align: center;
 }
 
 h1{  
     color: #565555;
-    
     font-size: 28px;
 }
 
-#in{
-    border: none;
-    height: 49;
-    width: 449;
+#brows{
+    height: 49px;
+    width: 680px;
     margin: 32px auto;
-    background: url(img/srchbar.png)
 }
-
-#browsebtn{
-    border: none;
-    color: #ffffff;
-    float: right;
-    margin-top: 8px;
-    margin-right: 8px; 
-    height: 33px;
-    width: 93px;
-    background: url(img/browsebtn.png);
-    cursor: pointer;   
+#in{
+    height: 49px;
+    width: 449px;
+    background: url(img/srchbar.png) no-repeat;
+    margin-left: 14px;
 }
 
 #inp{
@@ -106,4 +100,24 @@ h1{
     font-size: 18px;
     color: #565656;
     border: none;  
+}
+
+#browsebtn{
+    border: none;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px; 
+    height: 33px;
+    width: 93px;
+    background: url(img/browsebtn.png);
+    cursor: pointer;   
+}
+
+#uplbtn{
+    float: right; 
+    border: none;
+    height: 47;
+    width: 209;
+    background: url(img/UploadBtn.png);
+    cursor: pointer;
 }
