@@ -10,8 +10,6 @@ html{
 .container{
     width:1024;
     margin: 0 auto;
-    
-    
 }
 
 .nav il{
@@ -23,8 +21,7 @@ html{
     left: 0 ;
     right: 0;
     width: 100%;
-    padding: 0;
-    background: url(img/headback.png);
+    background: url(img/headback.png) no-repeat;
     background-size: contain;
     border-bottom-style: solid; 
     border-bottom-width: 1;
@@ -68,4 +65,45 @@ img{
 
 .navbtn:hover{
     background: url(img/OnClickBtn.png) 
+}
+
+#upload{
+    margin: 160px ;
+    text-align: center;
+}
+
+h1{  
+    color: #565555;
+    
+    font-size: 28px;
+}
+
+#in{
+    border: none;
+    height: 49;
+    width: 449;
+    margin: 32px auto;
+    background: url(img/srchbar.png)
+}
+
+#browsebtn{
+    border: none;
+    color: #ffffff;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px; 
+    height: 33px;
+    width: 93px;
+    background: url(img/browsebtn.png);
+    cursor: pointer;   
+}
+
+#inp{
+    float: left;
+    height: 33px;
+    width: 330px;
+    margin: 8;
+    font-size: 18px;
+    color: #565656;
+    border: none;  
 }
