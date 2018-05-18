@@ -39,6 +39,9 @@ a {
     padding: 35px;
     float: left;
 }
+img{
+    size: 100%
+}
 
 .nav{
     float: right;
