@@ -22,7 +22,8 @@ html{
     left: 0 ;
     right: 0;
     width: 100%;
-    background: url(img/headback.png) no-repeat;
+    background: url(img/headback.png);
+    background-repeat: repeat-x;
     background-size: contain;
     border-bottom-style: solid; 
     border-bottom-width: 1;
@@ -47,12 +48,12 @@ img{
 }
 
 .navbtn{
-    font-size: 16;
+    font-size: 16px;
     color: #545454;
     margin-left: -1;
     padding: 20;
     width: 109;
-    height: 118;
+    height: 118 ;
     background: none;
     border-top-width: 0;
     border-bottom-width: 0;
@@ -69,9 +70,9 @@ img{
     background: url(img/OnClickBtn.png) 
 }
 
-#upload{
+#main{
     margin: 160px auto;
-    width: 1024px;
+    width: 100%;
     text-align: center;
 }
 
@@ -96,7 +97,7 @@ h1{
     float: left;
     height: 33px;
     width: 330px;
-    margin: 8;
+    margin: 8px;
     font-size: 18px;
     color: #565656;
     border: none;  
@@ -116,8 +117,194 @@ h1{
 #uplbtn{
     float: right; 
     border: none;
-    height: 47;
-    width: 209;
+    height: 47px;
+    width: 209px;
     background: url(img/UploadBtn.png);
     cursor: pointer;
+}
+
+#gal{
+    left: 0 ;
+    right: 0;
+    width: 1024px;
+    height: 780px;
+    margin: 80px auto; 
+}
+
+.ph{
+    float: left;
+    width: 214px;
+    height: 276px;
+    background: url(img/PhotoBack.png) no-repeat;
+    padding-top: 11px;
+    padding-left: 11px;
+    margin: 27 20 0 0;
+    padding-right: 11px; 
+}
+
+.pic{
+    width: 203px;
+    height: 197px;
+    display: flex;  
+    align-items: flex-end;
+}
+
+.fav{
+    width: 203px;
+    height: 37px;
+    color: #545454;
+    font-size: 15px;
+    margin: 7 13;
+}
+
+.favbtn{
+    width: 22px;
+    height: 22px; 
+    background: url(img/fav.png) no-repeat;
+    cursor: pointer;
+    border: none; 
+}
+
+.txt{
+    float: left;
+    vertical-align: 15px;
+}
+
+.share{
+    font-size: 14px;
+    color: #545454;
+    width: 203px;
+    height: 37px;
+    margin: -7 1;
+}
+
+.twit{
+    float: right;
+    width: 22px;
+    height: 22px; 
+    background: url(img/twit.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    margin-right: 4px;
+}
+
+.twit:hover{
+    background: url(img/hovertwit.png) no-repeat;
+}
+
+.face{
+    float: right;
+    width: 22px;
+    height: 22px; 
+    background: url(img/Facebook.png) no-repeat;
+    cursor: pointer;
+    border: none; 
+    margin-right: 4px;
+}
+
+.face:hover{
+    background: url(img/HoverFacebook.png) no-repeat;
+}
+
+.pint{
+    float: right;
+    width: 22px;
+    height: 22px; 
+    background: url(img/pint.png) no-repeat;
+    cursor: pointer;
+    border: none; 
+    margin-right: 4px;
+}
+
+.pint:hover{
+    background: url(img/hoverpint.png) no-repeat;
+}
+
+.tumb{
+    float: right;
+    width: 22px;
+    height: 22px; 
+    background: url(img/tumblr.png) no-repeat;
+    cursor: pointer;
+    border: none; 
+    margin-right: 4px;
+}
+
+.tumb:hover{
+    background: url(img/Hovertumblr.png) no-repeat;
+}
+
+.shtxt{
+    margin-right: 13px;
+    float: right; 
+    vertical-align: 15px;
+}
+.date{
+    color: #d6dde0;
+    font-size: 19px;
+    float: left;
+    margin-left: 8;
+}
+
+
+
+#pic1{
+    background: url(img/statue.png) no-repeat;
+}
+
+#pic2{
+    background: url(img/pic2.png) no-repeat;
+}
+
+#pic3{
+    background: url(img/pic3.png) no-repeat;
+}
+
+#pic4{
+    background: url(img/pic4.png) no-repeat;
+}
+
+#pic5{
+    background: url(img/pic5.png) no-repeat;
+}
+
+#pic6{
+    background: url(img/pic6.png) no-repeat;
+}
+
+#pic7{
+    background: url(img/pic7.png) no-repeat;
+}
+
+#pic8{
+    background: url(img/pic8.png) no-repeat;
+}
+
+#pic9{
+    background: url(img/pic9.png) no-repeat;
+}
+
+#pic10{
+    background: url(img/pic10.png) no-repeat;
+}
+
+#pic11{
+    background: url(img/pic11.png) no-repeat;
+}
+
+#pic12{
+    background: url(img/pic12.png) no-repeat;
+}
+
+#footer{
+    height:125px;
+    width: 81%;
+    
+}
+
+#foottxt{
+    font-size: 17px;
+    color: #8b8a8a; 
+    float: right;
+    margin-top: 90px; 
 }
