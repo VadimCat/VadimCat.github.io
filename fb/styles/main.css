@@ -37,19 +37,18 @@ body{
 
 header{
     font-size: 36px;
-    height: 951px;
+    background: url(../images/back.png) no-repeat center / cover; 
 }
 
-.container1{
+.container{
     color: white;
     height: 951px;
-    background: url(../images/back.png) no-repeat center / cover; 
 }
 
 #logo{
     height: 140px;
     width: 81px;
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     margin-left: 155px; 
 }
@@ -106,5 +105,44 @@ h2{
     margin: 150px auto 0;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+}
+
+#about{
+    background: white;
+}
+
+#abouttext{
+    margin-top:206px;
+    margin-left: 172px;
+}
+
+#why{
+    display: block;
+    font-size: 72px;
+    color: black;
+}
+
+#write{
+    font-size: 48px;
+    color: #9f9f9f;
+}
+
+#features{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 438px;
+    height: 118px;
+    background:url(../images/features.png) no-repeat;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 89px;
+}
+
+iframe{
+    float: right;
+    margin-right: 41px;
 }
