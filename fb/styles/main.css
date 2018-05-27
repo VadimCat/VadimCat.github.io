@@ -36,10 +36,8 @@ body{
 }
 
 header{
-    padding-left:150px;
-    padding-right: 365px;
     font-size: 36px;
-    height: 950;
+    height: 951px;
 }
 
 .container1{
@@ -53,6 +51,7 @@ header{
     width: 81px;
     text-align: center;
     font-size: 24px;
+    margin-left: 155px; 
 }
 
 #logoimg{
@@ -62,6 +61,7 @@ header{
 nav{
     float: right;
     margin-top: 40px;
+    margin-right: 365px;
 }
 
 nav>ul>il{
@@ -73,13 +73,13 @@ nav>ul>il{
     width: 303px;
     height: 607px;
     background: url(../images/iphone.png) no-repeat;
-    color: #000;
-    font-size: 31px;
     margin-top: 32px;
-    margin-left: 50px;
+    margin-left: 245px;
+    margin-right: 55px;
 }
 
-#textbox{
+#centerbox{
+    padding-top: 150px;
 }
 
 h1{
@@ -97,7 +97,14 @@ h2{
     width: 300px;
     height: 606px;
     background: url(../images/s9.png) no-repeat;
-    color: #000;
-    font-size: 31px;
     margin-top: 32px;
+    margin-right: 250px;
+    margin-left: 55px;
+}
+
+#download{
+    margin: 150px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
