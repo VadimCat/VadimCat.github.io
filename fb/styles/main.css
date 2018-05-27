@@ -8,6 +8,14 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
 }
 
 a{
@@ -22,21 +30,22 @@ a:hover{
 
 
 body{
+    
     font-family: 'twcenmt', sans-serif;
     background-color: white;
-    box-sizing: border-box;
 }
 
 header{
-    padding-left: 8%;
-    padding-right: 19%;
+    padding-left:150px;
+    padding-right: 365px;
     font-size: 36px;
     height: 950;
 }
 
 .container1{
+    color: white;
     height: 951px;
-    background: url(../images/back.png) no-repeat center / cover;
+    background: url(../images/back.png) no-repeat center / cover; 
 }
 
 #logo{
@@ -44,7 +53,6 @@ header{
     width: 81px;
     text-align: center;
     font-size: 24px;
-    
 }
 
 #logoimg{
@@ -57,6 +65,39 @@ nav{
 }
 
 nav>ul>il{
-    margin-left: 4%;
+    margin-left: 52px;
 }
 
+#iphone{
+    float: left;
+    width: 303px;
+    height: 607px;
+    background: url(../images/iphone.png) no-repeat;
+    color: #000;
+    font-size: 31px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+#textbox{
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+#s9{
+    float: right;
+    width: 300px;
+    height: 606px;
+    background: url(../images/s9.png) no-repeat;
+    color: #000;
+    font-size: 31px;
+    margin-top: 32px;
+}
