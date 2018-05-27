@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'twcenmt';
+    src:url('../fonts/tcm/tcm.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+body{
+    font-family: 'twcenmt', sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+header{
+    padding-left: 8%;
+    padding-right: 19%;
+    font-size: 36px;
+    height: 950;
+}
+
+.container1{
+    height: 951px;
+    background: url(../images/back.png) no-repeat center / cover;
+}
+
+#logo{
+    height: 140px;
+    width: 81px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+#logoimg{
+    margin-top: 20px;
+}
+
+nav{
+    float: right;
+    margin-top: 40px;
+}
+
+nav>ul>il{
+    margin-left: 4%;
+}
+
