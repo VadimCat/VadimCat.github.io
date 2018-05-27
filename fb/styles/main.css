@@ -28,7 +28,6 @@ a:hover{
     text-decoration: underline;
 }
 
-
 body{
     
     font-family: 'twcenmt', sans-serif;
@@ -113,7 +112,7 @@ h2{
 }
 
 #abouttext{
-    margin-top:206px;
+    margin-top:150px;
     margin-left: 172px;
 }
 
@@ -128,7 +127,7 @@ h2{
     color: #9f9f9f;
 }
 
-#features{
+#featbtn{
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -136,7 +135,6 @@ h2{
     width: 438px;
     height: 118px;
     background:url(../images/features.png) no-repeat;
-    align-items: center;
     color: white;
     font-size: 50px;
     margin-top: 89px;
@@ -145,4 +143,38 @@ h2{
 iframe{
     float: right;
     margin-right: 41px;
+}
+
+#features{
+    background: url(../images/back.png) no-repeat center / cover; 
+    font-size: 100px;
+    height: 951px;
+}
+
+#mf{
+    height: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featnav{
+    width: 1569px;
+    height: 662px;
+    margin: 0 auto;
+}
+
+#featnav>il>a>img{
+    margin: 0 auto;
+}
+
+#featnav>il{
+    padding: 0 auto;
+    font-size: 80px;
+    width: 498px;   
+    height: 391px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
