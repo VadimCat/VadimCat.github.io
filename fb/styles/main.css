@@ -11,8 +11,6 @@
     box-sizing: border-box;
 }
 
-
-
 a{
     text-decoration: none;
     color: white;
@@ -30,13 +28,14 @@ body{
 }
 
 header{
+    color:white;
     font-size: 36px;
     background: url(../images/back.png) no-repeat center / cover; 
 }
 
 .container{
-    color: white;
     height: 951px;
+    box-sizing: border-box;
 }
 
 #logo{
@@ -102,13 +101,23 @@ h2{
     justify-content: center;
 }
 
+#aboutcontent{
+    padding-top: 150px;
+    height: 570px;
+}
+
 #about{
     background: white;
-    padding-top: 150px;
 }
 
 #abouttext{
     margin-left: 172px;
+}
+
+#features{
+    color: white;
+    background: url(../images/backinv.png) no-repeat center / cover; 
+    font-size: 100px;
 }
 
 #why{
@@ -140,12 +149,6 @@ iframe{
     margin-right: 41px;
 }
 
-#features{
-    background: url(../images/backinv.png) no-repeat center / cover; 
-    font-size: 100px;
-    height: 951px;
-}
-
 #mf{
     display: block;
     height: 184px;
@@ -175,7 +178,7 @@ iframe{
     text-align: center;
 }
 
-#reviews{
+div#reviews{
     background: white;
     color: black;
     font-size: 80px;
