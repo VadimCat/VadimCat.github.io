@@ -11,12 +11,7 @@
     box-sizing: border-box;
 }
 
-.clearfix:after{
-    content: '';
-    display: table;
-    width: 100%;
-    clear: both;
-}
+
 
 a{
     text-decoration: none;
@@ -109,10 +104,10 @@ h2{
 
 #about{
     background: white;
+    padding-top: 150px;
 }
 
 #abouttext{
-    margin-top:150px;
     margin-left: 172px;
 }
 
@@ -146,20 +141,22 @@ iframe{
 }
 
 #features{
-    background: url(../images/back.png) no-repeat center / cover; 
+    background: url(../images/backinv.png) no-repeat center / cover; 
     font-size: 100px;
     height: 951px;
 }
 
 #mf{
+    display: block;
     height: 184px;
     text-align: center;
+    padding-top: 42px;
 }
 
 #featnav{
     width: 1500px;
-    height: 662px;
-    margin: 0 auto;
+    height: 682px;
+    margin: 0 auto 106px;
 }
 
 #featnav>il{
@@ -175,5 +172,12 @@ iframe{
 }
 
 #featnav>il>a>p{
+    text-align: center;
+}
+
+#reviews{
+    background: white;
+    color: black;
+    font-size: 80px;
     text-align: center;
 }
