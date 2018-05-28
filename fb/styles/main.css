@@ -153,28 +153,27 @@ iframe{
 
 #mf{
     height: 184px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 #featnav{
-    width: 1569px;
+    width: 1500px;
     height: 662px;
     margin: 0 auto;
 }
 
-#featnav>il>a>img{
-    margin: 0 auto;
-}
-
 #featnav>il{
-    padding: 0 auto;
+    float: left;
     font-size: 80px;
     width: 498px;   
     height: 391px;
-    float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+#featnav>il>a>img{
+    display: block;
+    margin: 0 auto;
+}
+
+#featnav>il>a>p{
+    text-align: center;
 }
