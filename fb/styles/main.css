@@ -21,8 +21,7 @@ a:hover{
     text-decoration: underline;
 }
 
-body{
-    
+body{ 
     font-family: 'twcenmt', sans-serif;
     background-color: white;
 }
@@ -34,14 +33,18 @@ header{
 }
 
 .container{
-    height: 951px;
+    max-width: 1920px;
+    min-height: 951px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 #logo{
-    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    min-height: 140px;
     width: 81px;
-    text-align: left;
     font-size: 24px;
     margin-left: 155px; 
 }
@@ -101,13 +104,13 @@ h2{
     justify-content: center;
 }
 
-#aboutcontent{
-    padding-top: 150px;
-    height: 570px;
-}
-
 #about{
     background: white;
+}
+
+#aboutcontent{
+    padding-top: 150px;
+    min-height: 570px;
 }
 
 #abouttext{
@@ -141,7 +144,7 @@ h2{
     background:url(../images/features.png) no-repeat;
     color: white;
     font-size: 50px;
-    margin-top: 89px;
+    margin-top: 45px;
 }
 
 iframe{
@@ -157,16 +160,16 @@ iframe{
 }
 
 #featnav{
-    width: 1500px;
-    height: 682px;
-    margin: 0 auto 106px;
+    width: 79.2%;
+    min-height: 682px;
+    margin: 0 auto ;
 }
 
 #featnav>il{
     float: left;
     font-size: 80px;
-    width: 498px;   
-    height: 391px;
+    width: 33%;   
+    min-height: 341px;
 }
 
 #featnav>il>a>img{
@@ -178,9 +181,203 @@ iframe{
     text-align: center;
 }
 
-div#reviews{
+#reviews{
     background: white;
     color: black;
     font-size: 80px;
+
+}
+
+#revtxt{
+    display: block;
     text-align: center;
+    height: 115px;
+    padding-top: 32px;
+}
+
+/*.ratingpanel{
+    margin: 0 auto 20px;
+    width: 553px;
+    height: 110px;
+    background: url(../images/rate.png) no-repeat;
+}
+
+input{
+    opacity: 0;
+}
+
+input[type="radio"] + label{
+    background: url(../images/stargray.png);
+    width: 45px;
+    height: 45px;
+}
+
+input[type="radio"]:checked {
+    background: url(../images/staryellow.png) no-repeat;
+}
+
+
+#ratetxt{
+    float: left;
+    vertical-align: middle;
+    margin: 22px 0 0 41px; 
+}
+
+#mark{
+    font-size: 43px;
+}
+
+#rating{
+    font-size: 13px;
+}*/
+
+#people{
+    width: 79.2%;
+    margin: 0 auto;
+}
+
+#people>il{
+    width: 33%;
+    float: left;
+    font-size: 48px;
+    text-align: center;
+}
+
+#people>il>img{
+    margin-bottom: 40px;
+}
+
+#pricing{
+    box-sizing: border-box;
+    color:white;
+    font-size: 36px;
+    background: url(../images/back.png) no-repeat center / cover; 
+}
+
+#pricingnav{
+    width: 79.2%;
+    margin: 0 auto;
+}
+
+#pricingnav>il{
+    width: 33%;
+    height: 667px;
+    float: left;
+    text-align: center;
+}
+
+.price{
+    margin-top: 118px; 
+    display: block;
+    width: 88.2%;
+    height: 560px;
+    margin-bottom: 14px; 
+}
+
+.purchase{
+    display: block;
+    float: left;
+    width: 88.2%;
+    height: 95px;
+    background: url(../images/purchase.png) no-repeat;
+}
+
+.purchase:hover{
+    background: url(../images/purchaseglow.png) no-repeat;
+}
+
+#basic{
+    background: url(../images/basic.png) no-repeat;
+}
+
+#basic:hover{
+    background: url(../images/basicglow.png) no-repeat;
+}
+
+#standart{
+    background: url(../images/standart.png) no-repeat;
+}
+
+#standart:hover{
+    background: url(../images/standartglow.png) no-repeat;
+}
+
+#unlimited{
+    background: url(../images/unlimited.png) no-repeat;
+}
+
+#unlimited:hover{
+    background: url(../images/unlimitedglow.png) no-repeat;
+}
+
+#feedback{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+
+#questions{
+    text-align: left;
+    float: right;
+    font-size: 57px;
+}
+
+#faq{
+    display: block;
+    height: 110px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#pq{
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 90px;
+}
+
+.q{
+    margin-bottom: 35px;
+}
+
+#faqfield{
+    width: 79.2%;
+    margin: 0 auto;
+    padding-top: 88px;
+}
+
+#questions{
+    width: 42%;
+    margin-left: 8%;
+}
+
+form{
+    width: 50%;
+    font-size: 50px;
+    float: left;
+    text-align: left;
+}
+
+.info{
+    height: 56px;
+    margin-bottom: 27px;
+}
+
+.answer, .info{
+    width: 100%;
+    border: solid #7dc4fa 3px;
+    font-size: 50px;
+}
+
+.answer{
+    height: 212px;
+}
+
+.send{
+    margin-top: 37px;
+    font-size: 50px;
+    border: none;
+    width: 350px;
+    height: 72px;
+    color: white;
+    background: #7cc4f9;
 }

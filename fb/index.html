@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>First Blood</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 
@@ -28,7 +28,7 @@
                                 <a href="#reviews">Reviews</a>
                             </il>
                             <il>
-                                <a href="">Pricing</a>
+                                <a href="#pricing">Pricing</a>
                             </il>
                             <il>
                                 <a href="">Contact</a>
@@ -37,8 +37,8 @@
                     </nav>
                     <div id="logo">
                         <a href="#">
-                            <img src="images/logo.png" id="logoimg" alt="">
-                            <span class="logotxt">LOGO</span>
+                            <img src="images/logo.png" id="logoimg" alt="submit" class="submit">
+                            <p>LOGO</p>
                         </a>
                     </div>
                 </div>
@@ -138,7 +138,64 @@
         </div>
         <div id="reviews">
             <div class="container">
-                <p>REVIEWS</p>
+                <p id="revtxt">REVIEWS</p>
+                <ul id="people">
+                    <il>
+                        <img src="images/shadow.png" alt="" width="78.9%">
+                        <p class="name">Lepeshko Sergey</p>
+                    </il>
+                    <il>
+                        <img src="images/shadow.png" alt="" width="78.9%">
+                        <p class="name">Lepeshko Sergey</p>
+                    </il>
+                    <il>
+                        <img src="images/shadow.png" alt="" width="78.9%">
+                        <p class="name">Lepeshko Sergey</p>
+                    </il>
+                </ul>
+            </div>
+        </div>
+        <div id="pricing">
+            <div class="container">
+                <ul id="pricingnav">
+                    <il>
+                        <a href="" class="price" id="basic"></a>
+                        <a href="" class="purchase"></a>
+                    </il>
+                    <il>
+                        <a href="" class="price" id="standart"></a>
+                        <a href="" class="purchase"></a>
+                    </il>
+                    <il>
+                        <a href="" class="price" id="unlimited"></a>
+                        <a href="" class="purchase"></a>
+
+                    </il>
+                </ul>
+            </div>
+        </div>
+        <div id="feedback">
+            <div class="container">
+                <p id="faq">F.A.Q.</p>
+                <div id="faqfield">
+                    <form>
+                        <p>NAME</p>
+                        <input type="name" class="info">
+                        <p>Email adress</p>
+                        <input type="email" class="info">
+                        <p>Your answer</p>
+                        <input type="answer" class="answer">
+                        <input type="submit" value="SEND" class="send">
+                    </form>
+                    <div id="questions">
+                        <p id="pq">Popular Questions</p>
+                        <p class="q">-First popular question?</p>
+                        <p class="q">-Second popular question?</p>
+                        <p class="q">-Third popular question?</p>
+                        <p class="q">-Fourth popular question?</p>
+                        <p class="q">-Fifth popular question?</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
