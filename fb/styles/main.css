@@ -404,7 +404,8 @@ input[type="radio"]:checked {
 }
 
 #subscribe{
-    width: 58,5%;
+    margin: 0 auto;
+    width: 58.5%;
     border: solid 3px #71edd9;
     margin-bottom: 37px;
 }
@@ -445,4 +446,7 @@ input[type="radio"]:checked {
 #footer{
     font-weight: bold;
     font-size: 31px;
+}
+.map{
+ margin: 0 auto 80px;   
 }
