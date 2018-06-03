@@ -42,12 +42,12 @@ header{
 #logo{
     display: flex;
     align-items: center;
-    justify-items: center;
     min-height: 140px;
     width: 81px;
     font-size: 24px;
     margin-left: 155px; 
 }
+
 
 #logoimg{
     margin-top: 20px;
@@ -283,31 +283,31 @@ input[type="radio"]:checked {
 }
 
 .purchase:hover{
-    background: url(../images/purchaseglow.png) no-repeat;
+    background: url(../images/purchaseglow.png) no-repeat center;
 }
 
 #basic{
-    background: url(../images/basic.png) no-repeat;
+    background: url(../images/basic.png) no-repeat center;
 }
 
 #basic:hover{
-    background: url(../images/basicglow.png) no-repeat;
+    background: url(../images/basicglow.png) no-repeat center;
 }
 
 #standart{
-    background: url(../images/standart.png) no-repeat;
+    background: url(../images/standart.png) no-repeat center;
 }
 
 #standart:hover{
-    background: url(../images/standartglow.png) no-repeat;
+    background: url(../images/standartglow.png) no-repeat center;
 }
 
 #unlimited{
-    background: url(../images/unlimited.png) no-repeat;
+    background: url(../images/unlimited.png) no-repeat center;
 }
 
 #unlimited:hover{
-    background: url(../images/unlimitedglow.png) no-repeat;
+    background: url(../images/unlimitedglow.png) no-repeat center;
 }
 
 #feedback{
@@ -350,7 +350,7 @@ input[type="radio"]:checked {
     margin-left: 8%;
 }
 
-form{
+#faqform{
     width: 50%;
     font-size: 50px;
     float: left;
@@ -380,4 +380,69 @@ form{
     height: 72px;
     color: white;
     background: #7cc4f9;
+}
+
+#contact{
+    color: white;
+    background: url(../images/backinv.png) no-repeat center / cover; 
+    font-size: 100px;
+    text-align: center;
+}
+
+#faq{
+    font-weight: bold;
+    font-size: 70px;
+    display: block;
+    height: 90px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#subtxt{
+    padding-top: 40px; 
+    padding-bottom: 60px; 
+}
+
+#subscribe{
+    width: 58,5%;
+    border: solid 3px #71edd9;
+    margin-bottom: 37px;
+}
+
+#subemail{  
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    width: 70%;
+    text-align: center;
+    border: #6dfbcd solid 3px;
+}
+
+#subscribebtn{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 30%;
+    height: 100px;
+    background: #6dfbcd;
+}
+
+#socialnav{
+    width: 28%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialnav>il{
+    width: 14.9%;
+    margin-left: 10.1%;
+}
+
+#footer{
+    font-weight: bold;
+    font-size: 31px;
 }
