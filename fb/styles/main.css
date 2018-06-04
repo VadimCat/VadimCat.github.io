@@ -34,20 +34,21 @@ header{
 
 .container{
     max-width: 1920px;
-    min-height: 951px;
+    min-height: 100vh;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 #logo{
-    display: flex;
-    align-items: center;
-    min-height: 140px;
-    width: 81px;
+    text-align: center;
+    width: 4.21%;
     font-size: 24px;
-    margin-left: 155px; 
+    margin-left: 8.07%; 
 }
 
+#logotxt{
+    text-align: center;
+}
 
 #logoimg{
     margin-top: 20px;
@@ -56,21 +57,22 @@ header{
 nav{
     float: right;
     margin-top: 40px;
-    margin-right: 365px;
+    margin-right: 19%;
 }
 
 nav>ul>il{
-    margin-left: 52px;
+    margin-left: 2.7%;
 }
 
 #iphone{
     float: left;
-    width: 303px;
-    height: 607px;
     background: url(../images/iphone.png) no-repeat;
+    background-size: contain;
+    width: 15.78%;
+    height: 45vh;
     margin-top: 32px;
-    margin-left: 245px;
-    margin-right: 55px;
+    margin-left: 12.76%;
+    margin-right: 2.86%;
 }
 
 #centerbox{
@@ -194,42 +196,6 @@ iframe{
     height: 115px;
     padding-top: 32px;
 }
-
-/*.ratingpanel{
-    margin: 0 auto 20px;
-    width: 553px;
-    height: 110px;
-    background: url(../images/rate.png) no-repeat;
-}
-
-input{
-    opacity: 0;
-}
-
-input[type="radio"] + label{
-    background: url(../images/stargray.png);
-    width: 45px;
-    height: 45px;
-}
-
-input[type="radio"]:checked {
-    background: url(../images/staryellow.png) no-repeat;
-}
-
-
-#ratetxt{
-    float: left;
-    vertical-align: middle;
-    margin: 22px 0 0 41px; 
-}
-
-#mark{
-    font-size: 43px;
-}
-
-#rating{
-    font-size: 13px;
-}*/
 
 #people{
     width: 79.2%;
