@@ -17,8 +17,9 @@ a{
     cursor: pointer;
 }
 
-a:hover{
+a:hover{   
     text-decoration: underline;
+    transition: 2s;
 }
 
 body{ 
@@ -33,7 +34,6 @@ header{
 }
 
 .container{
-    max-width: 1920px;
     min-height: 100vh;
     box-sizing: border-box;
     margin: 0 auto;
@@ -55,6 +55,7 @@ header{
 }
 
 nav{
+    display: flex;
     float: right;
     margin-top: 40px;
     margin-right: 19%;
@@ -69,14 +70,14 @@ nav>ul>il{
     background: url(../images/iphone.png) no-repeat;
     background-size: contain;
     width: 15.78%;
-    height: 45vh;
+    height: 55vh;
     margin-top: 32px;
     margin-left: 12.76%;
     margin-right: 2.86%;
 }
 
 #centerbox{
-    padding-top: 150px;
+    padding-top: 8.7vh;
 }
 
 h1{
@@ -91,16 +92,17 @@ h2{
 
 #s9{
     float: right;
-    width: 300px;
-    height: 606px;
     background: url(../images/s9.png) no-repeat;
+    background-size: contain;
+    width: 15.78%;
+    height: 55vh;
     margin-top: 32px;
-    margin-right: 250px;
-    margin-left: 55px;
+    margin-left: 2.86%;
+    margin-right: 12.76%;
 }
 
 #download{
-    margin: 150px auto 0;
+    margin: 15.7vh auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,12 +113,12 @@ h2{
 }
 
 #aboutcontent{
-    padding-top: 150px;
-    min-height: 570px;
+    padding-top: 15.7vh;
+    height: 57vh;
 }
 
 #abouttext{
-    margin-left: 172px;
+    margin-left: 8.95%;
 }
 
 #features{
@@ -141,37 +143,34 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 438px;
-    height: 118px;
+    width: 29%;
+    height: 10vh;
     background:url(../images/features.png) no-repeat;
+    background-size: contain;
     color: white;
     font-size: 50px;
-    margin-top: 45px;
 }
 
 iframe{
     float: right;
-    margin-right: 41px;
+    margin-right: 2.14%;
 }
 
 #mf{
-    display: block;
-    height: 184px;
+    height: 19.3vh;
     text-align: center;
-    padding-top: 42px;
+    padding-top: 4.5vh;
 }
 
 #featnav{
     width: 79.2%;
-    min-height: 682px;
     margin: 0 auto ;
 }
 
 #featnav>il{
     float: left;
     font-size: 80px;
-    width: 33%;   
-    min-height: 341px;
+    width: 33%;
 }
 
 #featnav>il>a>img{
@@ -181,6 +180,7 @@ iframe{
 
 #featnav>il>a>p{
     text-align: center;
+    height: 12.6vh;
 }
 
 #reviews{
