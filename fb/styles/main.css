@@ -12,6 +12,7 @@
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -34,9 +35,9 @@ header{
 
 .container{
     max-width: 1920px;
-    min-height: 951px;
     box-sizing: border-box;
     margin: 0 auto;
+    height: 100vh;
 }
 
 #logo{
@@ -45,7 +46,7 @@ header{
     min-height: 140px;
     width: 81px;
     font-size: 24px;
-    margin-left: 155px; 
+    margin-left: 8%; 
 }
 
 
@@ -55,12 +56,12 @@ header{
 
 nav{
     float: right;
-    margin-top: 40px;
-    margin-right: 365px;
+    margin-top: 2%;
+    margin-right: 19%;
 }
 
 nav>ul>il{
-    margin-left: 52px;
+    margin-left: 2.7%;
 }
 
 #iphone{
