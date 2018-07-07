@@ -34,17 +34,17 @@ header{
 }
 
 .container{
+    height: 100vh;
     max-width: 1920px;
+    max-height: 1080px;
     box-sizing: border-box;
     margin: 0 auto;
-    height: 100vh;
 }
 
 #logo{
     display: flex;
     align-items: center;
-    min-height: 140px;
-    width: 81px;
+    width: 4.2%;
     font-size: 24px;
     margin-left: 8%; 
 }
@@ -56,22 +56,35 @@ header{
 
 nav{
     float: right;
-    margin-top: 2%;
+    margin-top: 40px;
     margin-right: 19%;
 }
 
 nav>ul>il{
-    margin-left: 2.7%;
+    margin-left: 5%;
 }
 
 #iphone{
     float: left;
-    width: 303px;
-    height: 607px;
     background: url(../images/iphone.png) no-repeat;
-    margin-top: 32px;
-    margin-left: 245px;
-    margin-right: 55px;
+    margin-left: 13%;
+    margin-right: 2.8%;
+    background-size: contain;
+}
+
+#s9{
+    float: right;
+    background: url(../images/s9.png) no-repeat;
+    margin-right: 13%;
+    margin-left: 2.8%;
+    background-size: contain;
+}
+
+.phone{
+    width: 15.8vw;
+    height: 31.6vw;
+    overflow: hidden;
+    margin-top: 32px; 
 }
 
 #centerbox{
@@ -86,16 +99,6 @@ h1{
 h2{
     text-align: center;
     font-size: 36px;
-}
-
-#s9{
-    float: right;
-    width: 300px;
-    height: 606px;
-    background: url(../images/s9.png) no-repeat;
-    margin-top: 32px;
-    margin-right: 250px;
-    margin-left: 55px;
 }
 
 #download{
