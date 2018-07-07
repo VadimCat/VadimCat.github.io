@@ -55,13 +55,16 @@ header{
 }
 
 nav{
+    width: max-content;
     float: right;
+    text-align: right;
     margin-top: 40px;
     margin-right: 19%;
 }
 
-nav>ul>il{
+nav>il{
     margin-left: 5%;
+    
 }
 
 #iphone{
@@ -83,7 +86,6 @@ nav>ul>il{
 .phone{
     width: 15.8vw;
     height: 31.6vw;
-    overflow: hidden;
     margin-top: 32px; 
 }
 
@@ -114,11 +116,10 @@ h2{
 
 #aboutcontent{
     padding-top: 150px;
-    min-height: 570px;
 }
 
 #abouttext{
-    margin-left: 172px;
+    margin-left: 8.9%;
 }
 
 #features{
@@ -143,9 +144,10 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 438px;
-    height: 118px;
+    width: 22.8vw;
+    height: 6.1vw;
     background:url(../images/features.png) no-repeat;
+    background-size: contain;
     color: white;
     font-size: 50px;
     margin-top: 45px;
@@ -157,10 +159,9 @@ iframe{
 }
 
 #mf{
-    display: block;
-    height: 184px;
     text-align: center;
-    padding-top: 42px;
+    padding: 60px 0;
+    
 }
 
 #featnav{
@@ -170,10 +171,11 @@ iframe{
 }
 
 #featnav>il{
+    text-align: center;
     float: left;
     font-size: 80px;
-    width: 33%;   
-    min-height: 341px;
+    width: 33%;
+    margin: 45px 0; 
 }
 
 #featnav>il>a>img{
