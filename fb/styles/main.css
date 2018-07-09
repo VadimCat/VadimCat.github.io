@@ -40,60 +40,60 @@ header{
 .container{
     height: 100vh;
     max-width: 1920px;
-    /*max-height: 1080px;*/
+    max-height: 1080px;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 #logo{
-    display: flex;
-    align-items: center;
-    width: 4.2%;
+    text-align: center;
+    width: min-content;
     font-size: 0.66rem;
-    margin-left: 8%; 
+    margin-left: 8vw;
 }
 
 #logoimg{
-    margin-top: 20px;
+    margin-top: 1vw;
+    width: 4.74vw;
 }
 
 nav{
     width: max-content;
     float: right;
     text-align: right;
-    margin-top: 40px;
-    margin-right: 19%;
+    margin-top: 2vw;
+    margin-right: 19vw;
 }
 
 nav>il{
-    margin-left: 5%;
+    margin-left: 5vw;
     
 }
 
 #iphone{
     float: left;
     background: url(../images/iphone.png) no-repeat;
-    margin-left: 13%;
-    margin-right: 1%;
+    margin-left: 13vw;
+    margin-right: 1vw;
     background-size: contain;
 }
 
 #s9{
     float: right;
     background: url(../images/s9.png) no-repeat;
-    margin-right: 13%;
-    margin-left: 1%;
+    margin-right: 13vw;
+    margin-left: 1vw;
     background-size: contain;
 }
 
 .phone{
     width: 15.8vw;
     height: 31.6vw;
-    margin-top: 32px; 
+    margin-top: 1.66vw; 
 }
 
 #centerbox{
-    padding-top: 140px;
+    padding-top: 7.3vw;
 }
 
 h1{
@@ -107,10 +107,14 @@ h2{
 }
 
 #download{
-    margin: 150px auto 0;
+    margin: 7.81vw auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#download>il>a>img{
+    width: 15vw;
 }
 
 #about{
@@ -118,11 +122,13 @@ h2{
 }
 
 #aboutcontent{
-    padding-top: 150px;
+    margin: auto 0;
+    height: 29.3vw;
+    padding-top: 10vw;
 }
 
 #abouttext{
-    margin-left: 8.9%;
+    margin-left: 8.9vw;
 }
 
 #features{
@@ -132,13 +138,12 @@ h2{
 }
 
 #why{
-    display: block;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: black;
 }
 
 #write{
-    font-size: 1.33rem;
+    font-size: 1.19rem;
     color: #9f9f9f;
 }
 
@@ -157,20 +162,21 @@ h2{
 }
 
 iframe{
+    width: 57.2vw;
+    height: 29.3vw;
     float: right;
     margin-right: 41px;
 }
 
 #mf{
     text-align: center;
-    padding: 60px 0;
-    
+    padding: 2.2vw 0;   
 }
 
 #featnav{
-    width: 79.2%;
-    min-height: 682px;
+    width: 79.2vw;
     margin: 0 auto ;
+    height: min-content;
 }
 
 #featnav>il{
@@ -178,23 +184,19 @@ iframe{
     float: left;
     font-size: 2.22rem;
     width: 33%;
-    margin: 45px 0; 
+    margin: 2.34vw   0; 
 }
 
 #featnav>il>a>img{
     display: block;
     margin: 0 auto;
-}
-
-#featnav>il>a>p{
-    text-align: center;
+    height: 11.5vw;
 }
 
 #reviews{
     background: white;
     color: black;
     font-size: 2.22rem;
-
 }
 
 #revtxt{
@@ -241,7 +243,7 @@ input[type="radio"]:checked {
 }*/
 
 #people{
-    width: 79.2%;
+    width: 79.2vw;
     margin: 0 auto;
 }
 
@@ -253,7 +255,8 @@ input[type="radio"]:checked {
 }
 
 #people>il>img{
-    margin-bottom: 40px;
+    margin-bottom: 2vw;
+    width: 21.4vw;
 }
 
 #pricing{
@@ -264,13 +267,12 @@ input[type="radio"]:checked {
 }
 
 #pricingnav{
-    width: 79.2%;
+    width: 79.2vw;
     margin: 0 auto;
 }
 
 #pricingnav>il{
-    width: 33%;
-    height: 667px;
+    width: 33vw;
     float: left;
     text-align: center;
 }
@@ -278,7 +280,7 @@ input[type="radio"]:checked {
 .price{
     margin-top: 118px; 
     display: block;
-    width: 88.2%;
+    width: 88.2vw;
     height: 560px;
     margin-bottom: 14px; 
 }
@@ -286,7 +288,7 @@ input[type="radio"]:checked {
 .purchase{
     display: block;
     float: left;
-    width: 88.2%;
+    width: 88.2vw;
     height: 95px;
     background: url(../images/purchase.png) no-repeat;
 }
@@ -349,18 +351,18 @@ input[type="radio"]:checked {
 }
 
 #faqfield{
-    width: 79.2%;
+    width: 79.2vw;
     margin: 0 auto;
     padding-top: 88px;
 }
 
 #questions{
-    width: 42%;
-    margin-left: 8%;
+    width: 42vw;
+    margin-left: 8vw;
 }
 
 #faqform{
-    width: 50%;
+    width: 50vw;
     font-size: 1.38rem;
     float: left;
     text-align: left;
@@ -372,7 +374,7 @@ input[type="radio"]:checked {
 }
 
 .answer, .info{
-    width: 100%;
+    width: 100vw;
     border: solid #7dc4fa 3px;
     font-size: 1.38rem;
 }
@@ -414,7 +416,7 @@ input[type="radio"]:checked {
 
 #subscribe{
     margin: 0 auto;
-    width: 58.5%;
+    width: 58.5vw;
     border: solid 3px #71edd9;
     margin-bottom: 37px;
 }
@@ -423,7 +425,7 @@ input[type="radio"]:checked {
     float: left;
     font-size: 50px;
     height: 100px;
-    width: 70%;
+    width: 70vw;
     text-align: center;
     border: #6dfbcd solid 3px;
 }
@@ -434,13 +436,13 @@ input[type="radio"]:checked {
     align-items: center;
     justify-content: center;
     font-size: 50px;
-    width: 30%;
+    width: 30vw;
     height: 100px;
     background: #6dfbcd;
 }
 
 #socialnav{
-    width: 28%;
+    width: 28vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -448,8 +450,8 @@ input[type="radio"]:checked {
 }
 
 #socialnav>il{
-    width: 14.9%;
-    margin-left: 10.1%;
+    width: 14.9vw;
+    margin-left: 10.1vw;
 }
 
 #footer{
