@@ -363,42 +363,41 @@ input[type="radio"]:checked {
 #faqfield{
     width: 79.2vw;
     margin: 0 auto;
-    padding-top: 2vw;
+    padding-top: 4.5vw;
 }
 
 #questions{
-    width: 42vw;
-    margin-left: 8vw;
+    width: 42%;
+    margin-left: 8%;
 }
 
 #faqform{
-    width: 50vw;
-    font-size: 1.38rem;
+    width: 50%;
+    font-size: 2.6vw;
     float: left;
     text-align: left;
 }
 
 .info{
-    height: 56px;
-    margin-bottom: 27px;
+    margin-bottom: 1.4vw;
 }
 
 .answer, .info{
-    width: 100vw;
+    width: 100%;
     border: solid #7dc4fa 3px;
     font-size: 1.38rem;
 }
 
 .answer{
-    height: 212px;
+    font-size: 1rem;
 }
 
 .send{
-    margin-top: 37px;
+    margin-top: 1.9vw;
     font-size: 1.38rem;
     border: none;
-    width: 350px;
-    height: 72px;
+    width: 18.2vw;
+    height: 3.7vw;
     color: white;
     background: #7cc4f9;
 }
