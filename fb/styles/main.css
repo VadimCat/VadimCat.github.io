@@ -39,7 +39,6 @@ header{
 
 .container{
     height: 100vh;
-    max-width: 1920px;
     max-height: 1080px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -158,19 +157,20 @@ h2{
     background-size: contain;
     color: white;
     font-size: 1.38rem;
-    margin-top: 45px;
+    position: absolute;
+    margin-top: 2.4vw 
 }
 
-iframe{
+#youtube{
     width: 57.2vw;
     height: 29.3vw;
     float: right;
-    margin-right: 41px;
+    margin-right: 2.13vw;
 }
 
 #mf{
     text-align: center;
-    padding: 2.2vw 0;   
+    padding: 1.7vw 0;   
 }
 
 #featnav{
@@ -184,13 +184,13 @@ iframe{
     float: left;
     font-size: 2.22rem;
     width: 33%;
-    margin: 2.34vw   0; 
+    margin: 1.7vw 0; 
 }
 
 #featnav>il>a>img{
     display: block;
     margin: 0 auto;
-    height: 11.5vw;
+    height: 10.5vw;
 }
 
 #reviews{
@@ -202,8 +202,7 @@ iframe{
 #revtxt{
     display: block;
     text-align: center;
-    height: 115px;
-    padding-top: 32px;
+    padding: 1.5vw 0;
 }
 
 /*.ratingpanel{
@@ -250,7 +249,7 @@ input[type="radio"]:checked {
 #people>il{
     width: 33%;
     float: left;
-    font-size: 1.33;
+    font-size: 1.33rem;
     text-align: center;
 }
 
@@ -272,53 +271,64 @@ input[type="radio"]:checked {
 }
 
 #pricingnav>il{
-    width: 33vw;
+    width: 33%;
     float: left;
     text-align: center;
 }
 
 .price{
-    margin-top: 118px; 
+    margin-top: 6.1vw; 
     display: block;
-    width: 88.2vw;
-    height: 560px;
-    margin-bottom: 14px; 
+    width: 24vw;
+    height: 29vw;
+    margin-bottom: 0.7vw;
+    transition: 1.5s; 
 }
 
 .purchase{
     display: block;
     float: left;
-    width: 88.2vw;
-    height: 95px;
-    background: url(../images/purchase.png) no-repeat;
+    width: 24vw;
+    height: 5vw;
+    background: url(../images/purchase.png) no-repeat center;
+    background-size: contain;
+    transition: 1.5s;
 }
 
 .purchase:hover{
     background: url(../images/purchaseglow.png) no-repeat center;
+    background-size: contain;
 }
 
 #basic{
     background: url(../images/basic.png) no-repeat center;
+    background-size: contain;
 }
 
 #basic:hover{
     background: url(../images/basicglow.png) no-repeat center;
+    background-size: contain;
 }
 
 #standart{
     background: url(../images/standart.png) no-repeat center;
+    background-size: contain;
 }
 
 #standart:hover{
     background: url(../images/standartglow.png) no-repeat center;
+    background-size: contain;
+    background-size: contain;
 }
 
 #unlimited{
     background: url(../images/unlimited.png) no-repeat center;
+    background-size: contain;
 }
 
 #unlimited:hover{
     background: url(../images/unlimitedglow.png) no-repeat center;
+    background-size: contain;
 }
 
 #feedback{
