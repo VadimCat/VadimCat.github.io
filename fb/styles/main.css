@@ -413,28 +413,28 @@ input[type="radio"]:checked {
     font-weight: bold;
     font-size: 1.94rem;
     display: block;
-    height: 90px;
+    height: 4.6vw;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 2vw;
 }
 
 #subtxt{
-    padding-top: 40px; 
-    padding-bottom: 60px; 
+    padding-top: 2vw; 
+    padding-bottom: 3vw; 
 }
 
 #subscribe{
     margin: 0 auto;
     width: 58.5vw;
     border: solid 3px #71edd9;
-    margin-bottom: 37px;
+    margin-bottom: 1.9vw;
 }
 
 #subemail{  
     float: left;
-    font-size: 50px;
-    height: 100px;
-    width: 70vw;
+    font-size: 1.38rem;
+    height: 5.2vw;
+    width: 70%;
     text-align: center;
     border: #6dfbcd solid 3px;
 }
@@ -444,9 +444,9 @@ input[type="radio"]:checked {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
-    width: 30vw;
-    height: 100px;
+    font-size: 1.38rem;
+    width: 30%;
+    height: 5.2vw;
     background: #6dfbcd;
 }
 
@@ -459,15 +459,18 @@ input[type="radio"]:checked {
 }
 
 #socialnav>il{
-    width: 14.9vw;
-    margin-left: 10.1vw;
+    margin: 0 9%;
+}
+#socialnav>il>a>img{
+    height: 4vw;
 }
 
 #footer{
     font-weight: bold;
-    font-size: 31px;
+    font-size: 0.86rem;
 }
 
 .map{
- margin: 0 auto 80px;   
+    height: 14vw;
+    margin: 0 auto 4vw;   
 }
