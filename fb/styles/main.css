@@ -39,7 +39,7 @@ header{
 
 .container{
     height: 100vh;
-    max-height: 1080px;
+    max-height: 50vw;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -384,7 +384,7 @@ input[type="radio"]:checked {
 
 .answer, .info{
     width: 100%;
-    border: solid #7dc4fa 3px;
+    border: solid #7dc4fa 0.15vw;
     font-size: 1.38rem;
 }
 
@@ -426,7 +426,7 @@ input[type="radio"]:checked {
 #subscribe{
     margin: 0 auto;
     width: 58.5vw;
-    border: solid 3px #71edd9;
+    border: solid 0.15vw #71edd9;
     margin-bottom: 1.9vw;
 }
 
@@ -436,7 +436,7 @@ input[type="radio"]:checked {
     height: 5.2vw;
     width: 70%;
     text-align: center;
-    border: #6dfbcd solid 3px;
+    border: #6dfbcd solid 0.15vw;
 }
 
 #subscribebtn{
