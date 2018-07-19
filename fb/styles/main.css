@@ -40,6 +40,7 @@ header{
 .container{
     height: 100vh;
     max-height: 50vw;
+    min-height: max-content;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -69,6 +70,12 @@ nav>il{
     
 }
 
+.phone{
+    width: 15.8vw;
+    height: 31.6vw;
+    margin-top: 1.66vw; 
+}
+
 #iphone{
     float: left;
     background: url(../images/iphone.png) no-repeat;
@@ -85,11 +92,7 @@ nav>il{
     background-size: contain;
 }
 
-.phone{
-    width: 15.8vw;
-    height: 31.6vw;
-    margin-top: 1.66vw; 
-}
+
 
 #centerbox{
     padding-top: 7.3vw;
@@ -190,7 +193,7 @@ h2{
 #featnav>il>a>img{
     display: block;
     margin: 0 auto;
-    height: 10.5vw;
+    height: 10.2%;
 }
 
 #reviews{
@@ -282,7 +285,9 @@ input[type="radio"]:checked {
     width: 24vw;
     height: 29vw;
     margin-bottom: 0.7vw;
-    transition: 1.5s; 
+    /*transition: 1.5s;
+    */
+    transition-duration: 1.5s;
 }
 
 .purchase{
@@ -345,25 +350,24 @@ input[type="radio"]:checked {
 
 #faq{
     display: block;
-    height: 5.72vw;
     text-align: center;
-    padding-top: 2vw;
+    padding-top: 0.5vw;
 }
 
 #pq{
     font-weight: bold;
-    font-size: 1.94rem;
-    margin-bottom: 4.1vw;
+    font-size: 1.5rem;
+    margin-bottom: 2vw;
 }
 
 .q{
-    margin-bottom: 1.9vw;
+    margin-bottom: 1vw;
 }
 
 #faqfield{
     width: 79.2vw;
     margin: 0 auto;
-    padding-top: 4.5vw;
+    padding-top: 3vw;
 }
 
 #questions{
@@ -373,7 +377,7 @@ input[type="radio"]:checked {
 
 #faqform{
     width: 50%;
-    font-size: 2.6vw;
+    font-size: 1.6rem;
     float: left;
     text-align: left;
 }
@@ -474,3 +478,9 @@ input[type="radio"]:checked {
     height: 14vw;
     margin: 0 auto 4vw;   
 }
+
+@media (min-width: 2500px) {
+    .container{
+        max-height: 42.9vw;
+    }
+  }
